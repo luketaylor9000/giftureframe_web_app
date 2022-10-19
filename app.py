@@ -1,6 +1,5 @@
 import requests
 import json
-# import urllib.request
 import os
 from dotenv import load_dotenv
 from flask import Flask, render_template
@@ -18,7 +17,7 @@ def get_gifs():
     lmt = 50    # set number of gifs to return MAX IS 50?
     ckey = "my_test_app"  # set the client_key for the integration and use the same value for all API calls
 
-    search_term = "mojojojo"
+    search_term = "computers"
     
     r = requests.get(
         "https://tenor.googleapis.com/v2/search?q=%s&key=%s&client_key=%s&limit=%s" % (search_term, apikey, ckey,  lmt))
