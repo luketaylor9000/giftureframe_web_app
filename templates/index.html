@@ -8,7 +8,7 @@
   <title>Giftureframe</title>
 </head>
 
-<body>
+<body style="overflow: hidden; margin: 0;">
 
   <script>
     const cleanArray = (backendList) => {
@@ -39,7 +39,8 @@
     setInterval(cycleArray, 4200);
   </script>
 
-  <img id="badge" src="{{current_gif[0]}}" style="height: 100%; width: 100%;" />
+<!-- SET HEIGHT AND MAX-WIDTH OF <img> TAG BELOW TO THE SIZE OF YOUR SCREEN -->
+<img id="badge" src="{{current_gif[0]}}" style="object-fit: cover; height: 720px; max-width: 720px;" />
 
 </body>
 
