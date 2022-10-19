@@ -36,7 +36,7 @@ def get_gifs():
 
 @app.route('/')
 def index():
-    current_gif = gif_list[0]
+    current_gif = gif_list
     return render_template('index.html', current_gif=current_gif )
 
 if __name__ == '__main__':
