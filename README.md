@@ -1,6 +1,7 @@
 # giftureframe_web_app
 A web app version of my Giftureframe project.  Contains a small Flask server that searches through the Tenor API for gifs to display full screen in the web browser.
 
+* THIS APP IS CURRENTLY STILL UNDER DEVELOPMENT AND UTILIZES THE FLASK DEVELOPMENT SERVER *
 
 -Get your Tenor API key from www.tenor.com/gifapi/documentation
 
